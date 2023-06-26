@@ -5,6 +5,10 @@ tasks:
       eval $(gp env -e PATH=$HOME/.local/share/solana/install/active_release/bin:$PATH)
       npm install
       npm run build:program-rust
+
+    hey thius my 2nd class 
+    
+    
     command: |
       gp open README-gitpod.md
       solana-keygen new --no-bip39-passphrase -o keypair.json
